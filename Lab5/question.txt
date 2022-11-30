@@ -1,0 +1,10 @@
+Q1. Simulate a mesh network with N nodes. The nodes are numbered sequentially from 1. The odd numbered stations are sources and even numbered stations are destinations. Assume that all the source nodes have UDP data from the starting of the simulation till the end of the ismulation. Find the performance of the network in terms of throughput for the following cases:
+a) Constant size UDP packets, varying N=2,5,10,15
+b) N=10, varying packet sizes of 256 bits, 512 bits, 2048 bits and 8192 bits
+
+
+
+Q2. Compare the performance of TCP Taho and TCP Reno protocols with 50 nodes under different NW traffic(Low traffic: 5% of nodes, Medium : 15% of nodes transmit, High: 25% of nodes). Simulation time is 50sec. Measure and plot the graphs for the following metrix. 
+i) PDR vs Simulation time interval(10sec,20,30,40,50) 
+ii) Control Overhead v Simulation time interval
+III) congestion rate vs simulation time interval
